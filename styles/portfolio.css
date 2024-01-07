@@ -1,4 +1,10 @@
 /* default and common styles  */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -11,7 +17,7 @@ body {
   height: 64px;
   border-radius: 5px;
   background: #fd6e0a;
-  border: 0;
+  border: none;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -23,7 +29,10 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 72.5%;
+  max-width: 1160px;
+  margin: 0 220px;
 }
 
 .nav-title {
@@ -46,4 +55,30 @@ nav a {
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* Header related styles */
+
+#header {
+  background: #fff8f3;
+}
+
+.banner {
+  display: flex;
+  padding: 60px 30px 0px 220px;
+  align-items: center;
+}
+
+.banner #profile-pic {
+  width: 584px;
+  height: 676px;
+}
+
+.banner .banner-content {
+}
+
+.banner-greeting {
+}
+
+.banner-title {
 }
